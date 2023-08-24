@@ -167,7 +167,7 @@ public final class SloppyPhraseMatcher extends PhraseMatcher {
 
   @Override
   float sloppyWeight() {
-    return 1f / (1f + matchLength);
+    return 1f;
   }
 
   @Override
